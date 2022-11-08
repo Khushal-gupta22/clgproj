@@ -10,3 +10,8 @@ window.onscroll = () =>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
+
+let bookEl = document.getElementById("book-el");
+function book() {
+    bookEl.textContent = "Congrats! Appointment booked";
+}
